@@ -7,14 +7,14 @@ API_ID = int(environ.get("API_ID", "32125390"))
 API_HASH = environ.get("API_HASH", "de5d000505daa6b43bee3463080cbe2b")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", "8258864671"))
+OWNER = int(environ.get("OWNER", "1784756925"))
 CREDIT = environ.get("CREDIT", "@nonomeansno🥰")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8258864671').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '1784756925').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8258864671').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '1784756925').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
@@ -33,6 +33,7 @@ photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png' #https:
 photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
 photozip = 'https://envs.sh/cD_.jpg'
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
 
